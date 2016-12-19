@@ -1,6 +1,6 @@
 require 'rake'
 
-task :calculate_averages => :enviroment do
+task :calculate_averages => :environment do
   products = Product.all 
 
   products.each do |product|
